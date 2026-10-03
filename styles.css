@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(login-screen\ bd\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+div{
+    margin-top: 200px;
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+input{
+    height: 35px;
+    border-radius: 17.5px;
+    border: solid 1px white;;
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    padding-left: 15px;
+    
+}
+input::placeholder{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+*{
+    font-family: 'Segoe UI';
+}
+h1{
+    padding-left: 35px;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+p{
+    margin-left: 50px;
+    color: white;
+}
