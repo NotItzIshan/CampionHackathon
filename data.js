@@ -11,6 +11,6 @@ function validate(){
     else if(email === 'security' && password === 'security123')
         document.getElementById("successornot").innerHTML = "Login successful!";
     else
-        document.getElementById("successornot").innerHTML = "Wrong Username Or Password!";
+        document.getElementById("successornot").innerHTML = "Wrong Username Or Password";
 }
 
